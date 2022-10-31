@@ -23,10 +23,6 @@ export class UsersComponent implements OnInit {
     this.userService.getAll().subscribe(value => this.users=value)
   }
 
-
-  // getUser(user: IUser ){
-  //   this.selectedUser = user
-  // }
   getUser(user: IUser) {
     this.selectedUser = user
   }
